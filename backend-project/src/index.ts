@@ -6,7 +6,7 @@ import './controller/crowllerController'
 import router from './router';
 
 // 問題1. express 庫類型定義文件 .d.ts 文件類型並不準確
-// 問題2. 當我使用中間鑑時， 對 req 或者 res 做了修改後，時寄類型不能改變
+// 問題2. 當我使用中間鑑時， 對 req 或者 res 做了修改後，實際類型不能改變
 
 const app = express();
 app.use(bodyParser.urlencoded({ extended: false }))

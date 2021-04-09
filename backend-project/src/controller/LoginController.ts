@@ -29,7 +29,7 @@ export class LoginController {
     if (isLogin) {
       res.json(getResponseData<responseResult.login>(true))
     } else {
-      if (password == '123' && req.session) {
+      if (password == 'eddie' && req.session) {
         req.session.login = true;
         res.json(getResponseData<responseResult.login>(true))
       } else {

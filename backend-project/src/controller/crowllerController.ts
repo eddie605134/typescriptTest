@@ -4,7 +4,7 @@ import {Request, Response, NextFunction} from 'express'
 import 'reflect-metadata';
 import {controller, use, get} from '../decorator';
 import {getResponseData} from '../utils/utils';
-import Crowller from '../utils/crowller'
+import Crowller from '../utils/crowller';
 import Analyzer from '../utils/Analyzer';
 
 
